@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Web.ApiGateway
+build_property.ProjectDir = C:\Users\User\Desktop\MikroserviceLearning\SimpleMicroservice\src\ApiGateways\WebApiGateway\Web.ApiGateway\
