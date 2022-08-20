@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GgP/0zqjHTF62LhcW7g5zJ3PbpL8XsD+n4KFbqHyjHfXvQYePDd9eoC95GB/7r2srwGjmn+PLGHBR340UqEfSA==",
+  "dgSpecHash": "5xHPT+/MxfBsS1I3GkbLBreYB5dz7pIhohSkMOnyzrP1eCa/l7J2HRCrxqr6P9KlWzY44Sf3HXtDNtf1ADvaGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\PatientService\\PatientService.Api\\PatientService.Api.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\PatientService\\PatientService.Api\\PatientService.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

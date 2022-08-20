@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Factory.deps.json
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Factory.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Factory.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Base.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.AssemblyInfo.cs
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.csproj.CopyComplete
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.pdb

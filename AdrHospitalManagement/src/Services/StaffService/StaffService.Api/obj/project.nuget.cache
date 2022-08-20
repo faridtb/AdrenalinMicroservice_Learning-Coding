@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VPUK16/jzddChjg3hcJ+khnONHMoPjkYdl3fuemd6AEc8Y2KLhW+nLS56G8ZRNsJtD+LPfpTbp+ASMcbclDJew==",
+  "dgSpecHash": "U34B/b100oGZk4FgosfQ+cUS7UwDaV27CPigtJGjzL4mXWSaI+Qh8BYcmtR4wQhUUMEfpzKsz3xKvbmYQPqvUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\StaffService\\StaffService.Api\\StaffService.Api.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\StaffService\\StaffService.Api\\StaffService.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

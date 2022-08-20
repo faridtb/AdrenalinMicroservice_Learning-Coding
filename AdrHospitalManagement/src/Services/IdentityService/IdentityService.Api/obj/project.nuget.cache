@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OP1d62rxzPmx1jFGxW/RshR0hVlSHtEehHG8fkstWlSyRHtw7kPqtR4YrPQPM5bguKY1P3mOwZDZN8k9PDBKMQ==",
+  "dgSpecHash": "0k+cr5ImZWiNDkvXDjYspeSywgVSSHTF8vi9vLGANVD7KfaKnmOWFvHxR73JMqT3yoNkthEvt/DvZHIRL/0qvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

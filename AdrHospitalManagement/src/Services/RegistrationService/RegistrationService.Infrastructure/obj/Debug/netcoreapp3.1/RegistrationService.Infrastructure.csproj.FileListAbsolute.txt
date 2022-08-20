@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\bin\Debug\netcoreapp3.1\RegistrationService.Infrastructure.deps.json
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\bin\Debug\netcoreapp3.1\RegistrationService.Infrastructure.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\bin\Debug\netcoreapp3.1\RegistrationService.Infrastructure.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\obj\Debug\netcoreapp3.1\RegistrationService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\obj\Debug\netcoreapp3.1\RegistrationService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\obj\Debug\netcoreapp3.1\RegistrationService.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\obj\Debug\netcoreapp3.1\RegistrationService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\obj\Debug\netcoreapp3.1\RegistrationService.Infrastructure.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Infrastructure\obj\Debug\netcoreapp3.1\RegistrationService.Infrastructure.pdb

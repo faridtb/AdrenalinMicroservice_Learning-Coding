@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CsT8bqEPZHs+fnPypx+k0G8jx4yk4eQNAy6lY4eaQlN2a/cJpzEuXd/7UUj547GHi58xE/XJH83Eo/MlmNqY/A==",
+  "dgSpecHash": "U2jM/kC9kLzBw7bMxDsRmGB6zi3rPzPuz0vGflUMiqLMqsGMQSKVnGkRtflsR6pj91Yy83XDF4oLgfexLZhWFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

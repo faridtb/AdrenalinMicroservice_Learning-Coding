@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.deps.json
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\bin\Debug\netcoreapp3.1\EventBus.Base.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\obj\Debug\netcoreapp3.1\EventBus.RabbitMq.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\obj\Debug\netcoreapp3.1\EventBus.RabbitMq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\obj\Debug\netcoreapp3.1\EventBus.RabbitMq.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\obj\Debug\netcoreapp3.1\EventBus.RabbitMq.AssemblyInfo.cs
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\obj\Debug\netcoreapp3.1\EventBus.RabbitMq.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\obj\Debug\netcoreapp3.1\EventBus.RabbitMq.csproj.CopyComplete
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\obj\Debug\netcoreapp3.1\EventBus.RabbitMq.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.RabbitMq\obj\Debug\netcoreapp3.1\EventBus.RabbitMq.pdb

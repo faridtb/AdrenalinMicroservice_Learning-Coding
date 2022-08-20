@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N4S4cZlwa8xWYXIBYDCkR54aBnNMpzviuwH2uArpVEm78xI/4KUTmrC6d+kDr2hm3d2yULHzRfGMbJ7Q8WQReQ==",
+  "dgSpecHash": "i8UVJqgcJSVSQreg42iaVeLM6utK9TAn9Dhz27HnQ5Ukkb3Rau5KiTHVRv0vdkiJScCdz5/o0AJCLtK9+g8chg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\NotificationService\\NotificationService\\NotificationService.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\NotificationService\\NotificationService\\NotificationService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

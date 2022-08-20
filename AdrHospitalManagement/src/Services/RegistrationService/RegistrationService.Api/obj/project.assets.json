@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\RegistrationService\\RegistrationService.Api\\RegistrationService.Api.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\RegistrationService\\RegistrationService.Api\\RegistrationService.Api.csproj",
       "projectName": "RegistrationService.Api",
-      "projectPath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\RegistrationService\\RegistrationService.Api\\RegistrationService.Api.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\RegistrationService\\RegistrationService.Api\\RegistrationService.Api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\RegistrationService\\RegistrationService.Api\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\RegistrationService\\RegistrationService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = EventBus.Tests
+build_property.ProjectDir = C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\tests\BuildingBlocks\EventBus.Tests\

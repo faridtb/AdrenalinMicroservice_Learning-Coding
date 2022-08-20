@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GFrAFwpW6mHmSFqfCi6bhZwdOQOF6DTZ6LbV7RA0Y7Vx1pVF73nEGtC/dc1nEz8OlyVtHsEJBRQuD8Rgn4rESA==",
+  "dgSpecHash": "U0ob/0vMxg/vxLcZZF77eWths0XSqfLyM3hBUbQmWtrtgz7TxoS7w4y5CS/aEi/fZBB52hJy6bJDf+ngau1RQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\ApiGateways\\WebApiGateway\\Web.ApiGateway\\Web.ApiGateway.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\ApiGateways\\WebApiGateway\\Web.ApiGateway\\Web.ApiGateway.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

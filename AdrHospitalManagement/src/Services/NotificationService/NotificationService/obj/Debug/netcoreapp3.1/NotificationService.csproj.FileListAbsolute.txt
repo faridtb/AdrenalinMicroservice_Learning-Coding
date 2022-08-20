@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\bin\Debug\netcoreapp3.1\NotificationService.exe
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\bin\Debug\netcoreapp3.1\NotificationService.deps.json
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\bin\Debug\netcoreapp3.1\NotificationService.runtimeconfig.json
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\bin\Debug\netcoreapp3.1\NotificationService.runtimeconfig.dev.json
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\bin\Debug\netcoreapp3.1\NotificationService.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\bin\Debug\netcoreapp3.1\NotificationService.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.AssemblyInfo.cs
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService\obj\Debug\netcoreapp3.1\NotificationService.genruntimeconfig.cache

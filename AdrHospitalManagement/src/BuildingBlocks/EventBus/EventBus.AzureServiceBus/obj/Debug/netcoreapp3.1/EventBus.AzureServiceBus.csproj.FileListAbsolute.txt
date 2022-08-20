@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.deps.json
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.AssemblyInfo.cs
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.pdb

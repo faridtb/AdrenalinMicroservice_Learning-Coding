@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj": {}
+    "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj": {
+    "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
         "projectName": "PaymentService.Api",
-        "projectPath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\SimpleMicroservice\\src\\Services\\PaymentService\\PaymentService.Api\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\Services\\PaymentService\\PaymentService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
