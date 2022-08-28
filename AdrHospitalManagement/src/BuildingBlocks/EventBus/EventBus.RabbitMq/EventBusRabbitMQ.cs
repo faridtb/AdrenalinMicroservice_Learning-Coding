@@ -94,11 +94,11 @@ namespace EventBus.RabbitMq
                 var properties = consumerChannel.CreateBasicProperties();
                 properties.DeliveryMode = 2;
 
-                consumerChannel.QueueDeclare(queue: GetSubName(eventName),  // Birinci decler edib , daha sonra uygun exchange bind edilib edlmediyini yoxlayacaqiq.
-                    durable: true,
-                    exclusive: false,
-                    autoDelete: false,
-                    arguments: null);
+                //consumerChannel.QueueDeclare(queue: GetSubName(eventName),  // Birinci decler edib , daha sonra uygun exchange bind edilib edlmediyini yoxlayacaqiq.
+                //    durable: true,
+                //    exclusive: false,
+                //    autoDelete: false,
+                //    arguments: null);
 
                 consumerChannel.BasicPublish(
                     exchange: EventBusConfig.DefaultTopicName,
@@ -185,6 +185,7 @@ namespace EventBus.RabbitMq
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 //logging
                
             }

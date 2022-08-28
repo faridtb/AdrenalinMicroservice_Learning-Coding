@@ -1,3 +1,8 @@
+using DoctorService.Api.IntegrationEvents.EventHandler;
+using DoctorService.Api.IntegrationEvents.Events;
+using EventBus.Base;
+using EventBus.Base.Abstaction;
+using EventBus.Factory;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +31,8 @@ namespace MedicalCareService.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddLogging(configure => configure.AddConsole());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

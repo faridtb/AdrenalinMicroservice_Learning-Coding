@@ -19,3 +19,17 @@ C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\Pa
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.dll
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.pdb
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.genruntimeconfig.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.Factory.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.dll
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.Base.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.Factory.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.csproj.CopyComplete

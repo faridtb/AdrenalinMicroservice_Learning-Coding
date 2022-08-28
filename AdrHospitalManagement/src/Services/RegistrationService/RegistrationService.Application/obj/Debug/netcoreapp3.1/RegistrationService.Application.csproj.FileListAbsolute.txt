@@ -7,3 +7,4 @@ C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\Re
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Application\obj\Debug\netcoreapp3.1\RegistrationService.Application.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Application\obj\Debug\netcoreapp3.1\RegistrationService.Application.dll
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Application\obj\Debug\netcoreapp3.1\RegistrationService.Application.pdb
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\RegistrationService\RegistrationService.Application\obj\Debug\netcoreapp3.1\RegistrationService.Application.csproj.AssemblyReference.cache

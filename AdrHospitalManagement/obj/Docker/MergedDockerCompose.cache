@@ -1,0 +1,28 @@
+services:
+  db:
+    container_name: mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: SwN12345678
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+    - published: 1433
+      target: 1433
+    restart: always
+  identityservice.api:
+    build:
+      context: C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement
+      dockerfile: src/Services/IdentityService/IdentityService.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: identityserviceapi
+    ports:
+    - target: 80
+    - target: 443
+    - published: 44378
+      target: 443
+    volumes:
+    - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

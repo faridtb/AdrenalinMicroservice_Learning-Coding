@@ -6,6 +6,12 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Core\Application\" />
+    <Folder Include="Infrastructure\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DoctorService\DoctorService.Api\DoctorService.Api.csproj" />
   </ItemGroup>
 
 
