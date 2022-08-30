@@ -17,7 +17,7 @@ namespace EventBus.RabbitMq
     {
         RabbitMQPersistentConnection persistentConnection;
 
-        private readonly IConnectionFactory connectionFactory;
+        private readonly ConnectionFactory connectionFactory;
         private readonly IModel consumerChannel;
 
 
@@ -27,11 +27,10 @@ namespace EventBus.RabbitMq
 
             if (config.Connection != null)
             {
+
                 var connJson = JsonConvert.SerializeObject(EventBusConfig.Connection, new JsonSerializerSettings()
                 {
-                    // Self referensing loop detected for property
-
-                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
                 });
 
                 connectionFactory = JsonConvert.DeserializeObject<ConnectionFactory>(connJson);
@@ -46,6 +45,7 @@ namespace EventBus.RabbitMq
             SubManager.OnEventRemoved += SubManager_OnEventRemoved;
 
         }
+
 
         private void SubManager_OnEventRemoved(object sender, string eventName)
         {

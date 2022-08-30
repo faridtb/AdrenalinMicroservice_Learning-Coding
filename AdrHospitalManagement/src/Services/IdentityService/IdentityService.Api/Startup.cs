@@ -1,4 +1,12 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using EventBus.Base;
+using EventBus.Base.Abstaction;
+using EventBus.Factory;
+using IdentityService.Api.AutoFac;
 using IdentityService.Api.Data;
+using IdentityService.Api.IntegrationEvents.EventHandler;
+using IdentityService.Api.IntegrationEvents.Events;
 using IdentityService.Api.Interfaces;
 using IdentityService.Api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -10,12 +18,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using RabbitMQ.Client;
 using System.Text;
 
 namespace IdentityService.Api
 {
     public class Startup
     {
+
+        public ILifetimeScope AutofacContainer { get; private set; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -57,6 +69,25 @@ namespace IdentityService.Api
                     });
             });
 
+            services.AddScoped<UserCreatedIntegrationEventHandler>();
+
+            services.AddSingleton(sp =>
+            {
+                EventBusConfig config = new EventBusConfig
+                {
+                    ConnectionRetryCount = 5,
+                    EventNameSuffix = "IntegrationEvent",
+                    SubscriberClientAppName = "IdentityService",
+                    EventBusType = EventBusType.RabbitMQ,
+                    Connection = new ConnectionFactory()
+                    {
+                        HostName = "rabbitmq"
+                    }
+                };
+
+                return EventBusFactory.Create(config, sp);
+            });
+
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
@@ -76,9 +107,16 @@ namespace IdentityService.Api
 
         }
 
+        public void ConfigureContainer(ContainerBuilder containerBuilder)
+        {
+            containerBuilder.RegisterModule(new AutofacModule());
+        }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            this.AutofacContainer = app.ApplicationServices.GetAutofacRoot();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -98,6 +136,9 @@ namespace IdentityService.Api
             {
                 endpoints.MapControllers();
             });
+
+            IEventBus eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<UserCreateStartedIntegrationEvent, UserCreatedIntegrationEventHandler>();
         }
     }
 }

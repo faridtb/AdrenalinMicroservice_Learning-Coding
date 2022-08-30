@@ -8,3 +8,7 @@ services:
       dockerfile: src/Services/IdentityService/IdentityService.Api/Dockerfile
   db:
      image: "mcr.microsoft.com/mssql/server:2019-latest"
+  rabbitmq:
+     image: rabbitmq:3-management
+volumes:
+  mymssqldb_volume:

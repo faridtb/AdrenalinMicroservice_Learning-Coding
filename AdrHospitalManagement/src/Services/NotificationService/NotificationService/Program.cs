@@ -22,8 +22,8 @@ namespace NotificationService
 
             IEventBus eventBus = sp.GetRequiredService<IEventBus>();
 
-            eventBus.Subscribe<DoctorCreateSuccessedIntegrationEvent, DoctorCreateSuccessedIntegrationEventHandler>();
-            eventBus.Subscribe<DoctorCreateFailedIntegrationEvent, DoctorCreateFailedIntegrationEventHandler>();
+            eventBus.Subscribe<UserCreateSucceededIntegrationEvent, UserCreateSucceededIntegrationEventHandler>();
+            eventBus.Subscribe<UserCreateFailedIntegrationEvent, UserCreateFailedIntegrationEventHandler>();
 
             Console.WriteLine("App is running....");
 
@@ -39,8 +39,8 @@ namespace NotificationService
             });
 
 
-            services.AddTransient<DoctorCreateFailedIntegrationEventHandler>();
-            services.AddTransient<DoctorCreateSuccessedIntegrationEventHandler>();
+            services.AddTransient<UserCreateFailedIntegrationEventHandler>();
+            services.AddTransient<UserCreateSucceededIntegrationEventHandler>();
 
             services.AddSingleton<IEventBus>(sp =>
             {
