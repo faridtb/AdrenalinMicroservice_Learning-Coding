@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "61oPH0WD4ufcZ+ed3cBnx9tlJiwaikush79nYVIUaLu/nhY/knh7hbru7vxEnLDz5qbseMHQCZWEVpob/qCc1g==",
+  "dgSpecHash": "vnG3OCwS7ARXoR1wnWoRBwgI/c2utqtytr2D6GVYqotQ37QM/IB0J82EXFCZWVZwBnwVVL7sTtzJGN8s8M4ASg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\BuildingBlocks\\EventBus\\EventBus.Base\\EventBus.Base.csproj",
   "expectedPackageFiles": [

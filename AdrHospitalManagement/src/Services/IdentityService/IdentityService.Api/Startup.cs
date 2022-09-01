@@ -1,7 +1,7 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using EventBus.Base;
-using EventBus.Base.Abstaction;
+using EventBus.Base.Abstraction;
 using EventBus.Factory;
 using IdentityService.Api.AutoFac;
 using IdentityService.Api.Data;
@@ -79,10 +79,10 @@ namespace IdentityService.Api
                     EventNameSuffix = "IntegrationEvent",
                     SubscriberClientAppName = "IdentityService",
                     EventBusType = EventBusType.RabbitMQ,
-                    Connection = new ConnectionFactory()
-                    {
-                        HostName = "rabbitmq"
-                    }
+                    //Connection = new ConnectionFactory()
+                    //{
+                    //    HostName = "rabbitmq"
+                    //}
                 };
 
                 return EventBusFactory.Create(config, sp);

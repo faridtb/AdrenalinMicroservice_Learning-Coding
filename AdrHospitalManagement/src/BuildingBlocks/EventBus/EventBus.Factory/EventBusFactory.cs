@@ -1,5 +1,5 @@
 ﻿using EventBus.Base;
-using EventBus.Base.Abstaction;
+using EventBus.Base.Abstraction;
 using EventBus.RabbitMq;
 using System;
 using System.Collections.Generic;

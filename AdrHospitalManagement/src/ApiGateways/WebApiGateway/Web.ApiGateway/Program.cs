@@ -17,10 +17,16 @@ namespace Web.ApiGateway
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
+
+
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+            .ConfigureAppConfiguration((hostingContext, config) =>
+            {
+                config.AddJsonFile($"configuration-{hostingContext.HostingEnvironment.EnvironmentName.ToLower()}.json").AddEnvironmentVariables();
+            })
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                 webBuilder.UseStartup<Startup>();
+            });
     }
 }

@@ -1,4 +1,4 @@
-﻿using EventBus.Base.Abstaction;
+﻿using EventBus.Base.Abstraction;
 using EventBus.Base.Event;
 using System;
 using System.Collections.Generic;

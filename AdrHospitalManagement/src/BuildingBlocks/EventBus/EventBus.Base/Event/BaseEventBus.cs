@@ -1,4 +1,4 @@
-﻿using EventBus.Base.Abstaction;
+﻿using EventBus.Base.Abstraction;
 using EventBus.Base.SubManagers;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;

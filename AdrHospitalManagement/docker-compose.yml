@@ -6,9 +6,21 @@ services:
     build:
       context: .
       dockerfile: src/Services/IdentityService/IdentityService.Api/Dockerfile
-  db:
+
+  notificationservice:
+    image: ${DOCKER_REGISTRY-}notificationservice
+    build:
+      context: .
+      dockerfile: src/Services/NotificationService/NotificationService/Dockerfile
+
+  identitydb:
      image: "mcr.microsoft.com/mssql/server:2019-latest"
   rabbitmq:
      image: rabbitmq:3-management
+
+
+
 volumes:
-  mymssqldb_volume:
+  identitydb_volume:
+
+

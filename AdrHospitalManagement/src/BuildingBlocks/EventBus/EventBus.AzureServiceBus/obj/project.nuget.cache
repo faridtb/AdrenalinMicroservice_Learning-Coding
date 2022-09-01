@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3kiUQQdEYx0aY5eADihBqlfLN+DCGosYzDcX8S8pwixIpwyr2ep+B09FuvLGzYG1GypAYNd6uBe3gNFbzhUkOg==",
+  "dgSpecHash": "RAQxB7TCc/2vfCoJ9x1DQg7hoiq8ChHV9cISMIhw87Hv+YHyt5a02emJGcp78pPSq2TVbdPj18ktrv4DRoqR/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\BuildingBlocks\\EventBus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
   "expectedPackageFiles": [],

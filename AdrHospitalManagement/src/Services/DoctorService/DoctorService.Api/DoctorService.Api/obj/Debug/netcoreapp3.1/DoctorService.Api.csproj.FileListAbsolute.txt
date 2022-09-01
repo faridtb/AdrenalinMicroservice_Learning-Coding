@@ -26,10 +26,9 @@ C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\Do
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.pdb
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\DoctorService.Api.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\staticwebassets\DoctorService.Api.StaticWebAssets.Manifest.cache
-C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\staticwebassets\DoctorService.Api.StaticWebAssets.xml
-C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\DoctorService.Api.styles.css
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\DoctorService.Api.RazorTargetAssemblyInfo.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\DoctorService.Api.csproj.CopyComplete
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\DoctorService.Api.dll
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\DoctorService.Api.pdb
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\obj\Debug\netcoreapp3.1\DoctorService.Api.genruntimeconfig.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\DoctorService\DoctorService.Api\DoctorService.Api\bin\Debug\netcoreapp3.1\DoctorService.Api.StaticWebAssets.xml

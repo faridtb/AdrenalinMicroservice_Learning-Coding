@@ -1,6 +1,6 @@
 services:
-  db:
-    container_name: mssql
+  identitydb:
+    container_name: identitydb
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: SwN12345678
@@ -13,13 +13,15 @@ services:
       context: C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement
       dockerfile: src/Services/IdentityService/IdentityService.Api/Dockerfile
     depends_on:
-      db:
+      identitydb:
         condition: service_started
       rabbitmq:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionStrings:DefaultConnection: Server=identitydb,1433; Database=IdentityDb;
+        User=sa; Password=SwN12345678;
     image: identityserviceapi
     ports:
     - target: 80
@@ -29,6 +31,12 @@ services:
     volumes:
     - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
     - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - identitydb_volume:/var/opt/mssql/data:rw
+  notificationservice:
+    build:
+      context: C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement
+      dockerfile: src/Services/NotificationService/NotificationService/Dockerfile
+    image: notificationservice
   rabbitmq:
     container_name: rabbitmq
     image: rabbitmq:3-management
@@ -38,3 +46,5 @@ services:
     - published: 15672
       target: 15672
 version: '3.4'
+volumes:
+  identitydb_volume: {}

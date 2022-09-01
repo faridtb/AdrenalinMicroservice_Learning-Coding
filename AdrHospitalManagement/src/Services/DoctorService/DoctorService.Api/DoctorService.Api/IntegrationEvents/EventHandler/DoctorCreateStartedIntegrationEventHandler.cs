@@ -1,5 +1,5 @@
 ﻿using DoctorService.Api.IntegrationEvents.Events;
-using EventBus.Base.Abstaction;
+using EventBus.Base.Abstraction;
 using EventBus.Base.Event;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;

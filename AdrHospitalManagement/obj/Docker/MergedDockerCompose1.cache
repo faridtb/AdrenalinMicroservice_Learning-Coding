@@ -1,6 +1,6 @@
 services:
-  db:
-    container_name: mssql
+  identitydb:
+    container_name: identitydb
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: SwN12345678
@@ -18,7 +18,7 @@ services:
       target: base
     container_name: IdentityService.Api
     depends_on:
-      db:
+      identitydb:
         condition: service_started
       rabbitmq:
         condition: service_started
@@ -27,6 +27,8 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionStrings:DefaultConnection: Server=identitydb,1433; Database=IdentityDb;
+        User=sa; Password=SwN12345678;
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
       NUGET_FALLBACK_PACKAGES: ''
     image: identityserviceapi:dev
@@ -49,6 +51,32 @@ services:
     - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
     - C:\Users\User\.nuget\packages:/root/.nuget/packages:ro
     - C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement:/src:rw
+    - identitydb_volume:/var/opt/mssql/data:rw
+  notificationservice:
+    build:
+      context: C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement
+      dockerfile: src/Services/NotificationService/NotificationService/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: NotificationService
+      target: base
+    container_name: NotificationService
+    entrypoint: tail -f /dev/null
+    environment:
+      NUGET_FALLBACK_PACKAGES: ''
+    image: notificationservice:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/netcoreapp3.1/NotificationService.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    tty: true
+    volumes:
+    - C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\NotificationService\NotificationService:/app:rw
+    - C:\Users\User\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\User\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement:/src:rw
   rabbitmq:
     container_name: rabbitmq
     image: rabbitmq:3-management
@@ -58,3 +86,5 @@ services:
     - published: 15672
       target: 15672
 version: '3.4'
+volumes:
+  identitydb_volume: {}

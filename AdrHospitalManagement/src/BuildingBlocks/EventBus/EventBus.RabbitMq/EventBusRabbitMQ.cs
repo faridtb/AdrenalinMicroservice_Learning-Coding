@@ -1,5 +1,5 @@
 ﻿using EventBus.Base;
-using EventBus.Base.Abstaction;
+using EventBus.Base.Abstraction;
 using EventBus.Base.Event;
 using Newtonsoft.Json;
 using Polly;
@@ -17,7 +17,7 @@ namespace EventBus.RabbitMq
     {
         RabbitMQPersistentConnection persistentConnection;
 
-        private readonly ConnectionFactory connectionFactory;
+        private readonly IConnectionFactory connectionFactory;
         private readonly IModel consumerChannel;
 
 
@@ -28,12 +28,16 @@ namespace EventBus.RabbitMq
             if (config.Connection != null)
             {
 
-                var connJson = JsonConvert.SerializeObject(EventBusConfig.Connection, new JsonSerializerSettings()
-                {
-                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
-                });
+                //var connJson = JsonConvert.SerializeObject(EventBusConfig.Connection, new JsonSerializerSettings()
+                //{
+                //    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+                //});
 
-                connectionFactory = JsonConvert.DeserializeObject<ConnectionFactory>(connJson);
+                //connectionFactory = JsonConvert.DeserializeObject<ConnectionFactory>(connJson);    //-- Newtonsoft erroru qaytarir static yazdim
+                connectionFactory = new ConnectionFactory()
+                {
+                    HostName = "rabbitmq"
+                };
             }
             else
                 connectionFactory = new ConnectionFactory();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f1eYUgYJzh4dvniQiML/NrCn0QTe+aZOO0dYrGhqV63dA69X+UY5XaJpzLBOVsh4SYX3au5WgrqQ0NfaqN6YVA==",
+  "dgSpecHash": "AeTevlNAEZlYI0/hl0m5QjR6JDaWHCH/iH3gG1UiSjrVxqj1Lf9sgWmWlKN87EpzhX5IeF1T8318cbfEh0mDNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\BuildingBlocks\\EventBus\\EventBus.Factory\\EventBus.Factory.csproj",
   "expectedPackageFiles": [

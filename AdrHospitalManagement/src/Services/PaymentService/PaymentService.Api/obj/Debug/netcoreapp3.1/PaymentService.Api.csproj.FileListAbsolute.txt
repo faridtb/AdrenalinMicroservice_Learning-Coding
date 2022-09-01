@@ -13,8 +13,6 @@ C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\Pa
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\staticwebassets\PaymentService.Api.StaticWebAssets.Manifest.cache
-C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\staticwebassets\PaymentService.Api.StaticWebAssets.xml
-C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\PaymentService.Api.styles.css
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.RazorTargetAssemblyInfo.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.dll
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.pdb
@@ -33,3 +31,4 @@ C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\Pa
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.pdb
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\EventBus.RabbitMq.pdb
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.csproj.CopyComplete
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PaymentService\PaymentService.Api\bin\Debug\netcoreapp3.1\PaymentService.Api.StaticWebAssets.xml

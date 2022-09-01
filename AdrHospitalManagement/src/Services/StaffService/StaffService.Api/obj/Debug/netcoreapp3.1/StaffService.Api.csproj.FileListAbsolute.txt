@@ -13,9 +13,8 @@ C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\St
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\StaffService.Api.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\StaffService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\staticwebassets\StaffService.Api.StaticWebAssets.Manifest.cache
-C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\staticwebassets\StaffService.Api.StaticWebAssets.xml
-C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\StaffService.Api.styles.css
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\StaffService.Api.RazorTargetAssemblyInfo.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\StaffService.Api.dll
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\StaffService.Api.pdb
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\obj\Debug\netcoreapp3.1\StaffService.Api.genruntimeconfig.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\StaffService\StaffService.Api\bin\Debug\netcoreapp3.1\StaffService.Api.StaticWebAssets.xml

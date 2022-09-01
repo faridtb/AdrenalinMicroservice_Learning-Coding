@@ -1,7 +1,7 @@
 using DoctorService.Api.IntegrationEvents.EventHandler;
 using DoctorService.Api.IntegrationEvents.Events;
 using EventBus.Base;
-using EventBus.Base.Abstaction;
+using EventBus.Base.Abstraction;
 using EventBus.Factory;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

@@ -1,0 +1,7 @@
+
+NotificationService -> Console App
+
+WebApi.GateWay -> http://localhost:5000
+
+PaymentService -> http://localhost:5001
+IdentityService ->http://localhost:5003

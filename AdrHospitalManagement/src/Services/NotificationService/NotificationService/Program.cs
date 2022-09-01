@@ -1,10 +1,11 @@
 ﻿using EventBus.Base;
-using EventBus.Base.Abstaction;
+using EventBus.Base.Abstraction;
 using EventBus.Factory;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NotificationService.IntegrationEvents.EventHandler;
 using NotificationService.IntegrationEvents.Events;
+using RabbitMQ.Client;
 using System;
 
 namespace NotificationService
@@ -49,7 +50,11 @@ namespace NotificationService
                     ConnectionRetryCount = 5,
                     EventNameSuffix = "IntegrationEvent",
                     SubscriberClientAppName = "NotificationService",
-                    EventBusType = EventBusType.RabbitMQ
+                    EventBusType = EventBusType.RabbitMQ,
+                    Connection = new ConnectionFactory()
+                    {
+                        HostName = "rabbitmq"
+                    }
                 };
                 return EventBusFactory.Create(config, sp);
             });

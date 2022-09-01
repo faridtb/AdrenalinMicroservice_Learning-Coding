@@ -1,4 +1,4 @@
-﻿using EventBus.Base.Abstaction;
+﻿using EventBus.Base.Abstraction;
 using EventBus.Base.Event;
 using IdentityService.Api.Data;
 using IdentityService.Api.IntegrationEvents.Events;

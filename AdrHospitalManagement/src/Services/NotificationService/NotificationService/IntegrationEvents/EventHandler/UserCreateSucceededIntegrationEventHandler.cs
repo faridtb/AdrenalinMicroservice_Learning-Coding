@@ -1,4 +1,4 @@
-﻿using EventBus.Base.Abstaction;
+﻿using EventBus.Base.Abstraction;
 using Microsoft.Extensions.Logging;
 using NotificationService.IntegrationEvents.Events;
 using System;
@@ -21,6 +21,7 @@ namespace NotificationService.IntegrationEvents.EventHandler
         {
             // Send Fail Notification ( Email, Sms )
 
+            Console.WriteLine("Succese girdin");
             _logger.LogInformation($"Doctor create successed with DoctorID:{@event.UserId}");
 
             return Task.CompletedTask;

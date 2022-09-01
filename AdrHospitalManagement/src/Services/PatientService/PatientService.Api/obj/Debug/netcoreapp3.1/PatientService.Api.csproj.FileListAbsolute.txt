@@ -13,9 +13,8 @@ C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\Pa
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\PatientService.Api.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\PatientService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\staticwebassets\PatientService.Api.StaticWebAssets.Manifest.cache
-C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\staticwebassets\PatientService.Api.StaticWebAssets.xml
-C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\PatientService.Api.styles.css
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\PatientService.Api.RazorTargetAssemblyInfo.cache
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\PatientService.Api.dll
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\PatientService.Api.pdb
 C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\obj\Debug\netcoreapp3.1\PatientService.Api.genruntimeconfig.cache
+C:\Users\User\Desktop\MikroserviceLearning\AdrHospitalManagement\src\Services\PatientService\PatientService.Api\bin\Debug\netcoreapp3.1\PatientService.Api.StaticWebAssets.xml

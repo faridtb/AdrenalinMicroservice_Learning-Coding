@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bNScYYsFxOxpEKYcpovJvdGhqPsUXl5ac3fxSIr8+hOfu5+bv6mcgu57xsMLG6LFKcC41Ex7Yyh/mu/i8Y8LvQ==",
+  "dgSpecHash": "/dq4qROgkFbGGioqkHmNwenFHzV6JNzjImqPmKyKLAlyr16K79hlyEkDzh7n9yjrN8ayObMScf3n01iuV7QCTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\MikroserviceLearning\\AdrHospitalManagement\\src\\BuildingBlocks\\EventBus\\EventBus.RabbitMq\\EventBus.RabbitMq.csproj",
   "expectedPackageFiles": [
